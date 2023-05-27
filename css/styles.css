@@ -667,7 +667,7 @@ img {
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form-input-wrapper {
@@ -757,8 +757,8 @@ img {
 }
 
 .modal-form-check:checked + .modal-form-check-desc .modal-form-check-wrapper {
-  background-color: var(--pressed-state-color);
   border: none;
+  background-color: var(--pressed-state-color);
   fill: var(--white-color);
   border-color: var(--pressed-state-color);
 }
