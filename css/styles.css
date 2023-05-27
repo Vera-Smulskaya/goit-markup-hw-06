@@ -725,7 +725,7 @@ img {
 .modal-form-check-desc {
   font-weight: 400;
   font-size: 12px;
-  line-height: var(--title-line-height);
+  line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 24px;
   color: var(--subtle-text-color);
@@ -739,7 +739,8 @@ img {
   margin-right: 8px;
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
+  border: 1px solid var(--dark-color);
   border-radius: 2px;
   transition: border-color var(--transition-duration-and-func),
     background-color var(--transition-duration-and-func);
@@ -754,7 +755,6 @@ img {
   border: none;
   background-color: var(--pressed-state-color);
   fill: var(--white-color);
-  cursor: pointer;
   opacity: 1;
   border-color: var(--pressed-state-color);
 }
