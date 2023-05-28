@@ -753,7 +753,6 @@ img {
 .modal-form-check-own {
   opacity: 0;
   cursor: pointer;
-  transition: opacity var(--transition-duration-and-func);
 }
 
 .modal-form-check:checked + .modal-form-check-desc .modal-form-check-own {
