@@ -733,7 +733,6 @@ img {
   letter-spacing: 0.04em;
   margin-bottom: 24px;
   color: var(--subtle-text-color);
-  transition: border-color var(--transition-duration-and-func);
 }
 
 .modal-form-check-wrapper {
@@ -746,8 +745,6 @@ img {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: border-color var(--transition-duration-and-func),
-    background-color var(--transition-duration-and-func);
 }
 
 .modal-form-check-own {
